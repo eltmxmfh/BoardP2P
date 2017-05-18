@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapper namespace="BoardMVQuery">
+	<resultMap id="BoardResult" type="boardVO">
+		<id property="id" column="ID"/>
+		<result property="no" column="NO" />
+		<result property="title" column="TITLE" />
+		<result property="comment" column="COMMENT" />
+		<result property="file" column="FILE" />
+		<result property="regDate" column="REGDATE" />
+		<result property="type" column="TYPE" />
+		<result property="count" column="COUNT" />		
+	</resultMap>
+		
+	<insert id="insertBoard" parameterType="com.boardP2P.P2PVO.BoardP2PVO">
+	</insert>
+
+	<update id="updateBoard">
+	</update>
+
+	<delete id="deleteBoard">
+	</delete>
+	
+	<select id="getBoard" resultType="boardVO">
+	</select>
+	
+	<select id="getBoardList" resultMap="BoardResult">
+	</select>
+</mapper>

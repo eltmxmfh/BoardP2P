@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<typeAliases>
+        <typeAlias alias="boardVO" type="com.boardP2P.P2PVO.BoardP2PVO"/>
+    </typeAliases>
+</configuration>
