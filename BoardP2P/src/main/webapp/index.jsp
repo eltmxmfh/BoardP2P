@@ -12,7 +12,7 @@
 <tiles:insertDefinition name="layout">
 	<tiles:putAttribute name="content">
 	<script type="text/javascript">
-		location.href = "/BoardP2P/home.do";
+		location.href = "home.do";
 	</script>		
 	</tiles:putAttribute>
 </tiles:insertDefinition>

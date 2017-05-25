@@ -20,7 +20,7 @@ public class MV_Controller {
 	@Autowired
 	private BoardServiceMV boardServiceMv;
 	
-	@RequestMapping(value="/home.do")
+	@RequestMapping(value="home.do")
 	public String home(){
 		return "home";
 	}
