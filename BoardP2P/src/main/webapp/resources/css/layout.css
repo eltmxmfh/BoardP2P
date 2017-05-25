@@ -1,0 +1,97 @@
+@CHARSET "EUC-KR";
+		#container{
+			width: 80%;
+			margin: auto;
+			min-height: 100%;
+		}
+		#header{
+       		margin-bottom: 20px;
+        	border: 1px solid #bcbcbc;
+		}
+		#nav{
+			widows: 1000px;
+			border: 3px solid black;
+			margin-top: 20px;
+			height: 100px;
+		}
+		#body_top_menu{
+			width: 250px;
+			border: 1px solid #bcbcbc;
+			position: relative;
+			float: left;
+			margin-bottom: 10px;
+			padding: 15px;
+		}
+		#body_content{
+			width: 50%;
+			border: 1px solid #bcbcbc;
+			height: auto;
+			float: left;
+			clear: both;
+		}
+		#loginForm{
+			border: 1px solid #bcbcbc;
+			padding: 10px;
+		}
+		#body_container{
+			width: 77%;
+        	float: right;
+        	position:relative;
+        	border: 1px solid #bcbcbc;
+        	padding: 10px;
+        	margin-bottom: 20px;
+		}
+		#leftMenu{
+			width: 18%;
+	        float: left;
+	        border: 1px solid #bcbcbc;
+	        padding: 10px;	
+	        margin-bottom: 20px;
+		}
+		#footer{
+			clear: both;
+        	border: 1px solid #bcbcbc;
+        	padding: 20px;
+		}
+		* {
+			text-align: center;
+			word-break:break-all;
+		    vertical-align: middle;
+		}
+		.table_style {
+ 			width: 300px; 
+		}
+		
+		.table_style ul {
+			clear: left;
+			margin: 0; 
+			padding: 0; 
+			list-style-type: none;
+		}
+		
+		.table_style .header {
+			font-weight: bold; 
+			text-align: center; 
+			border-top: 1px solid #000; 
+		}
+		
+		.table_style ul li {
+			float: left;
+			margin: 0;
+			padding: 2px 1px;
+			border-bottom: 1px solid #000;
+			border-left: 1px solid #000;
+		}
+		
+		.table_style ul .column1 {
+			width: 60px; 
+		}
+		
+		.table_style ul .column2 {
+			width: 160px;
+		}
+		
+		.table_style ul .column3 {
+			width: 70px;
+			border-right: 1px solid #000; 
+		}
